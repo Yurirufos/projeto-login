@@ -82,3 +82,64 @@ section#login > div#form > p {
   text-align: center;
   font-size: 1em;
 }
+
+form > div.campo {
+ display: block;
+ background-color: #49a09d;
+ width: 100%;
+ height: 35px;
+ border-radius: 40px;
+ margin: 5px 0px;
+ padding: 2px 25px;
+}
+
+
+
+form > input[type=submit] {
+ display: block;
+ font-size: 1.2em;
+ width: 100%;
+ height: 35px;
+ background-color:#602c82e1 ;
+ color: white;
+ border: none;
+ border-radius: 40px;
+ 
+}
+
+form > input[type=submit]:hover {
+ background-color: #4c2268f5;
+ cursor: pointer;
+ color: #af4ef0ce;
+} 
+
+form > a.button {
+ display: block;
+ text-align: center;
+ font-size: 1.2em;
+ width: 100%;
+ height: 35px;
+ background-color:#8c3fbee1;
+ color: #602c82e1;
+ border: 1px solid #602c8298;
+ border-radius: 40px;
+ text-decoration: none;
+ padding-top: 1px;
+ margin-top: 3px;
+
+}
+
+div.campo > label {
+ display: none;
+}
+
+form > a.button:hover {
+ background-color:#602c82e1;
+ color: rgba(255, 255, 255, 0.452);
+}
+
+
+form > a.button > span {
+ font-size: 1.5em;
+ 
+}
