@@ -6,6 +6,8 @@
   }
   section#login {
     width: 90vw;
+    height: 320px;
+    
   }
 
   section#login > div#img {
@@ -36,6 +38,7 @@
   }
   section#login {
     width: 950px;
+    height: 350px;
   }
   section#login > div#img {
     float: right;

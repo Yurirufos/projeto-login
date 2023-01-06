@@ -93,7 +93,27 @@ form > div.campo {
  padding: 2px 25px;
 }
 
+div.campo > span {
+ color: rgb(241, 235, 235);
+ 
+ font-size: 2em;
+ width: 40px;
+ padding: 3px;
 
+}
+
+div.campo > input {
+ font-size: 1em;
+ height: 100%;
+ width: calc(100% - 25%);
+ transform: translateY(-25%);
+ border-radius: 40px;
+ background-color: #5bccc8e1 ;
+}
+
+div.campo > input:focus-within {
+ background-color: white;
+}
 
 form > input[type=submit] {
  display: block;
